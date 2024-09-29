@@ -89,22 +89,12 @@ if __name__ == '__main__':
             addHouseToCSV(a_house)
     else:
         #If you have several URLS to run you can put them in an array and then run that
-        urls = ["https://www.zillow.com/homedetails/3501-Chesapeake-Blvd-Norfolk-VA-23513/79234313_zpid/",
-                "https://www.zillow.com/homedetails/3501-Chesapeake-Blvd-Norfolk-VA-23513/79234313_zpid/",
-                "https://www.zillow.com/homedetails/5968-Glen-View-Dr-Virginia-Beach-VA-23464/60625798_zpid/",
-                "https://www.zillow.com/homedetails/9405-Alpine-Ct-Norfolk-VA-23503/79199510_zpid/",
-                "https://www.zillow.com/homedetails/8608-Sturgis-St-Norfolk-VA-23503/79195058_zpid/",
-                "https://www.zillow.com/homedetails/1121-Kempsville-Rd-Norfolk-VA-23502/79194341_zpid/",
-                "https://www.zillow.com/homedetails/1104-Minden-Rd-Virginia-Beach-VA-23464/60642896_zpid/",
-                "https://www.zillow.com/homedetails/1297-River-Oaks-Dr-Norfolk-VA-23502/79235974_zpid/",
-                "https://www.zillow.com/homedetails/2557-Elon-Dr-Virginia-Beach-VA-23454/60718176_zpid/",
-                "https://www.zillow.com/homedetails/9557-10th-Bay-St-Norfolk-VA-23518/79197512_zpid/",
-                "https://www.zillow.com/homedetails/817-Orkney-Ct-Chesapeake-VA-23322/61412242_zpid/",
-                "https://www.zillow.com/homedetails/3021-E-Ocean-View-Ave-Norfolk-VA-23518/338689383_zpid/",
-                "https://www.zillow.com/homedetails/334-Dorwin-Dr-Norfolk-VA-23502/79231793_zpid/",
-                "https://www.zillow.com/homedetails/5279-E-Valleyside-Ct-Virginia-Beach-VA-23464/60642724_zpid/",
-                "https://www.zillow.com/homedetails/3884-Stumpy-Lake-Ln-Virginia-Beach-VA-23456/81334098_zpid/",
-                "https://www.zillow.com/homedetails/2505-Pinto-Dr-Virginia-Beach-VA-23456/60657732_zpid/"
+        urls = ["https://www.zillow.com/homedetails/8227-Amber-Cove-Dr-Humble-TX-77346/28208964_zpid/",
+                "https://www.zillow.com/homedetails/1814-Venus-Dr-New-Caney-TX-77357/28743344_zpid/",
+                "https://www.zillow.com/homedetails/7815-Tamarron-Ct-Humble-TX-77346/28258463_zpid/",
+                "https://www.zillow.com/homedetails/7902-Twining-Oaks-Ln-Spring-TX-77379/28163753_zpid/",
+                "https://www.zillow.com/homedetails/5011-Cottage-Glen-Ct-Kingwood-TX-77345/52410710_zpid/",
+                "https://www.zillow.com/homedetails/3331-Lost-Maple-Forest-Ct-Kingwood-TX-77345/84010388_zpid/"
                 ]
         houses = []
         for url in urls:
